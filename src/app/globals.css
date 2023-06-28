@@ -1,0 +1,23 @@
+:root {
+  --border-radius: 6px;
+  --full-white: #FEFEFE;
+  --dark-white: #EEEEEE;
+  --light-gray: #CCCCCC;
+  --medium-gray: #666666;
+  --dark-gray: #444444;
+  --light-orange: #FFA585;
+  --dark-orange: #E06341;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}

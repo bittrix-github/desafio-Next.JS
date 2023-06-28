@@ -7,7 +7,7 @@ const quick = Quicksand({
 })
 
 export const metadata = {
-  title: 'teste next',
+  title: 'ride on',
   description: '',
 }
 
@@ -20,7 +20,7 @@ export default function RootLayout(
 {
   return (
     <html lang="en" className={ quick.className }>
-      <body>
+      <body suppressHydrationWarning={true} >
           { children }
       </body>
     </html>
