@@ -43,7 +43,7 @@ const Logo = styled.div`
 `
 
 const BurguerLayer = styled.div`
-    width: 4rem;
+    width: 3rem;
     height: 0.3rem;
     border-radius: var(--border-radius);
     background-color: var(--medium-gray);
@@ -51,8 +51,8 @@ const BurguerLayer = styled.div`
 `
 
 const BurguerContainer = styled.div<BurguerProps>`
-    width: 4rem;
-    height: 2.5rem;
+    width: 3rem;
+    height: 2.3rem;
     cursor: pointer;
     display: none;
 
@@ -68,12 +68,12 @@ const BurguerContainer = styled.div<BurguerProps>`
     }
 
     ${ props => props.open ? `${ BurguerLayer }:nth-child(1) {
-        transform: translate(0, 0.8rem) rotate(45deg);
+        transform: translate(0, 0.7rem) rotate(45deg);
     }` : ``
     }
 
     ${ props => props.open ? `${ BurguerLayer }:nth-child(3) {
-        transform: translate(0, -1.4rem) rotate(-45deg);
+        transform: translate(0, -1.3rem) rotate(-45deg);
     }` : ``
     }
 `

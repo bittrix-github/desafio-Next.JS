@@ -353,7 +353,7 @@ export function FormList ( props: FormBuilderProps ) {
                     <FieldContainer>
                         <PrimaryLabel text="Quilometragem inicial:" htmlFor="_ViagemKmInicial" />
                         <PrimaryInput
-                            placeholder="Insira a quilometragem incial da viagem"
+                            placeholder="Insira a quilometragem inicial da viagem"
                             id="_ViagemKmInicial"
                             value={data.kmInicial}
                             name="kmInicial"

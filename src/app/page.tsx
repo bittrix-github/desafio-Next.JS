@@ -23,7 +23,6 @@ export default function Home ( ) {
   const client = new QueryClient()
 
   return (
-    <main>
       <EntityContextProvider>
         <MethodContextProvider>
           <IdContextProvider>
@@ -52,6 +51,5 @@ export default function Home ( ) {
           </IdContextProvider>
         </MethodContextProvider>
       </EntityContextProvider>
-    </main>
   )
 }

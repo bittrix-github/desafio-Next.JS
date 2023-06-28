@@ -14,7 +14,7 @@ interface ResultsListProps {
 
 }
 
-const ResultsContainer = styled.div`
+const ResultsContainer = styled.main`
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@ const ResultsContainer = styled.div`
     }
 `
 
-const ResultsTable = styled.div`
+const ResultsTable = styled.section`
     overflow-x: auto;
 `
 
