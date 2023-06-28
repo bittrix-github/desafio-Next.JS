@@ -68,12 +68,12 @@ const AboutContainer = styled.section`
 
 export function About ( props: AboutProps ) {
 
-    const { about, setAbout } = useAbout()
+    const { about } = useAbout()
     const { setEntity } = useEntity()
     
     useEffect( () => {
         setEntity( EntityType.default )
-    }, [] )
+    }, [ setEntity ] )
     
 
     if ( about ) {
@@ -88,8 +88,6 @@ export function About ( props: AboutProps ) {
                     <li>- &nbsp; Realizar novos cadastros (de Funcionários, Condutores, Veículos e Viagens);</li>
                     <li>- &nbsp; Atualizar dados já cadastrados em nosso banco.</li>
                 </ul>
-
-
             </AboutContainer>
         )
     }
