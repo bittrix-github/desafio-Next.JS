@@ -312,7 +312,7 @@ export function FormList ( props: FormBuilderProps ) {
                         />
                     </FieldContainer>
                     <FieldContainer>
-                        <PrimaryLabel text="Palca:" htmlFor="_VeiculoPlaca" />
+                        <PrimaryLabel text="Placa:" htmlFor="_VeiculoPlaca" />
                         <PrimaryInput
                             placeholder="Exemplo: AAA-0000, BBB0C00..."
                             id="_VeiculoPlaca"

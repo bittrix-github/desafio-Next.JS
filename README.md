@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Desafio Front-End Secretária Naty
 
-## Getting Started
+Olá! Sou [Pedro Bittencourt](https://www.linkedin.com/in/bittrix/), Desenvolvedor Front-end.
 
-First, run the development server:
+Este _readme_ contém informações sobre o desenvolvimento da aplicação tida como teste para o processo seletivo **desenvolvedor front-end** da [Secretária Naty](https://secretarianaty.com/).<br><br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Informações e aspectos sobre o desenvolvimento da aplicação
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Sistema operacional: Windows 10 Pro 64 bits;
+- Editor de texto: Visual Studio Code (Versão 1.79.2);
+- Framework JavaScript: [Next.js](https://nextjs.org/);
+- Framework JavaScript: [TypeScript](https://www.typescriptlang.org/).<br><br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pacotes instalados
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [styled components](https://styled-components.com/);
+- [Axios](https://github.com/axios/axios);
+- [useQuery](https://tanstack.com/query/v4/docs/react/reference/useQuery).<br><br>
 
-## Learn More
+## Como rodar a aplicação
 
-To learn more about Next.js, take a look at the following resources:
+#### Localmente:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Ter Node.js instalado;
+- Explorar o repositório em seu editor de texto de preferência;
+- No terminal do editor de texto, executar _npm run dev_;
+- A aplicação será inicializada em seu navegador padrão (ver **Notas**) em http://localhost:3000/.<br><br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Online:
 
-## Deploy on Vercel
+Acesse a url [desafio-next-js-naty.vercel.app](https://desafio-next-js-naty.vercel.app/) no seu navegador de preferência (ver **Notas**).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> Observação: a aplicação foi buildada para produção e feito deploy em [vercel.com](https://vercel.com/).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
+
+## Considerações sobre os requisitos do desafio
+
+- Infelizmente, não tive tempo hábil de implementar a biblioteca Material-UI ao projeto. Ao estimar o tempo de trabalho que ainda seria necessário e compará-lo ao prazo de envio do repositório, priorizei a entrega da aplicação pronta e funcional. Como forma de compensação, me esforcei em desenvolver uma interface visualmente harmônica, clean e intuitiva, com um _design system_ redondo.<br><br>
+
+## Notas
+
+- Desenvolvimento otimizado para Google Chrome (Versão 114.0.5735.198) 64 bits para desktop;<br><br>
+- Breakpoint de responsividade em 800px de largura de tela;<br><br>
+- 350px min-width.<br><br>
+
+## Versões futuras da aplicação
+
+- Uso da biblioteca [Material-UI](https://mui.com/) para componentização da aplicação;<br><br>
+- Validação nos campos dos formulários;<br><br>
+- Preencher os campos com os valores atuais na abertura dos formulários de edição (método `'PUT'`);<br><br>
+- Paginação na listagem dos resultados.
