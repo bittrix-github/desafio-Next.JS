@@ -1,12 +1,13 @@
 :root {
   --border-radius: 6px;
-  --full-white: #FEFEFE;
-  --dark-white: #EEEEEE;
-  --light-gray: #CCCCCC;
-  --medium-gray: #666666;
-  --dark-gray: #444444;
-  --light-orange: #FFA585;
-  --dark-orange: #E06341;
+  --full-white:    #FEFEFE;
+  --light-gray:    #F1F3F5;
+  --dark-gray:     #697179;
+  --strong-burple: #5B4EE2;
+  --light-burple:  #DEDCF9;
+  --strong-green:  #1ABA97;
+  --dark-green:    #159579;
+  --light-green:   #D1F1EA;
 }
 
 * {

@@ -13,11 +13,16 @@ export const PrimaryButton = styled.button.attrs(() => ({
 }))`
     width: 20rem;
     padding: 1rem;
-    border: 1px solid var(--dark-gray);
+    border: none;
     border-radius: var(--border-radius);
-    background-color: var(--dark-white);
+    background-color: var(--strong-green);
     font-size: 1.6rem;
     font-weight: 500;
-    color: var(--dark-gray);
+    color: var(--full-white);
     cursor: pointer;
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+      background-color: var(--dark-green);
+    }
 `

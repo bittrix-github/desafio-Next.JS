@@ -26,9 +26,9 @@ const ModalContainer = styled.dialog`
     min-height: 100vh;
     color: var(--medium-gray);
     backdrop-filter: blur(2px);
-    `
+`
     
-    const ModalContent = styled.div`
+const ModalContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;

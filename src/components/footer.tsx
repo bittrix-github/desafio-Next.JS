@@ -18,15 +18,14 @@ const TagFooter = styled.footer`
 
 const Logo = styled.div`
     font-size: 1.4rem;
-    font-weight: 400;
-    color: var(--medium-gray);
+    font-weight: 500;
+    color: var(--dark-gray);
     cursor: pointer;
     
-
     & a {
         font-size: 1.6rem;
         font-weight: 600;
-        color: var(--dark-orange);
+        color: var(--strong-burple);
         text-decoration: none;
         margin-left: 0.8rem;
     }

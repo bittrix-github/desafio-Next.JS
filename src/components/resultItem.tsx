@@ -39,12 +39,13 @@ const ResultItem = styled.div`
     display: flex;
     align-items: center;
     justify-content: start;
-    background-color: var(--dark-white);
+    background-color: var(--light-gray);
     border-bottom: 1px solid var(--full-white);
 `
 
 const ResultColumn = styled.span`
     font-size: 1.6rem;
+    font-weight: 500;
     color: var(--dark-gray);
     width: 100%;
 `

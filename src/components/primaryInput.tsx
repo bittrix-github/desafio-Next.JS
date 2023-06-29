@@ -10,18 +10,18 @@ const quick = Quicksand({
 const TagInput = styled.input.attrs(() => ({
     className: quick.className
 }))`
-    width: 30rem;
+    width: 34rem;
     height: 4rem;
     border: 1px solid transparent;
     border-radius: var(--border-radius);
     padding: 1rem 1.5rem;
-    background-color: var(--dark-white);
+    background-color: var(--light-gray);
     color: var(--dark-gray);
     font-size: 1.6rem;
 
     &:focus {
         outline: none;
-        border: 1px solid var(--light-orange);
+        border: 1px solid var(--strong-green);
     }
 `
 

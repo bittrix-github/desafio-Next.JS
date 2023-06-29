@@ -31,7 +31,7 @@ const FilterList = styled.ul<FilterListProps>`
     justify-content: space-between;
     height: 8rem;
     padding: 0 5vw;
-    background-color: var(--dark-white);
+    background-color: var(--light-gray);
 
     @media (max-width: 800px) {
         ${ props => props.open ? 'display: flex;' : 'display: none;' }
@@ -47,9 +47,10 @@ const FilterList = styled.ul<FilterListProps>`
 const FilterItem = styled.li<FilterItemProps>`
     list-style: none;
     font-size: 1.8rem;
-    font-weight: ${ props => props.selected ? '500;' : '400;' }
+    color: var(--dark-gray);
+    font-weight: ${ props => props.selected ? '600;' : '500;' }
     cursor: pointer;
-    border-bottom: ${ props => props.selected ? '0.3rem solid var(--light-orange);' : '0.3rem solid transparent;' }
+    border-bottom: ${ props => props.selected ? '0.3rem solid var(--strong-burple);' : '0.3rem solid transparent;' }
 `
 
 export function FilterEntity ( props: FilterEntityProps ) {

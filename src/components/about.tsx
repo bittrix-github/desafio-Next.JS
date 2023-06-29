@@ -21,7 +21,7 @@ const AboutContainer = styled.section`
     z-index: 4;
     background-color: var(--full-white);
     min-height: calc(100vh - 22rem);
-    color: var(--medium-gray);
+    color: var(--dark-gray);
 
     @media (max-width: 800px) {
         min-height: calc(100vh - 14rem);
@@ -29,28 +29,26 @@ const AboutContainer = styled.section`
 
     & h1 {
         font-size: 2.4rem;
-        margin-bottom: 5rem;
+        font-weight: 600;
+        color: var(--strong-burple);
+        margin-bottom: 3rem;
     }
 
     & h2 {
         font-size: 1.8rem;
-        margin-bottom: 3rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
     }
 
     & span {
-        font-style: italic;
-        font-size: 2.2rem;
-        font-weight: 200;
-        padding: 0 0.5rem;
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: var(--strong-green);
     }
 
     & h3 {
-        font-size: 1.6rem;
-        margin-top: 2rem;
-    }
-
-    & h4 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
+        font-weight: 600;
         margin-top: 2rem;
     }
     
@@ -58,11 +56,6 @@ const AboutContainer = styled.section`
         font-size: 1.7rem;
         list-style: none;
         margin-top: 2rem;
-    }
-
-    & em {
-        font-style: normal;
-        border-bottom: 1px dashed #AAA;
     }
 `
 
@@ -83,8 +76,8 @@ export function About ( props: AboutProps ) {
                 <h2>Este é o <span>ride on</span>, o portal de translados da DecaBit Engenharia.</h2>
                 <h3>Aqui você tem acesso aos registros das viagens de translado dos funcionários da empresa.</h3>
                 <ul>
-                    <h4>Navegue pelo menu e você poderá:</h4>
-                    <li>- &nbsp; Acessar a lista de <em>Funcionários</em> cadastrados, <em>Condutores</em> cadastrados, <em>Veículos</em> cadastrados e histório de <em>Viagens</em> realizadas;</li>
+                    <h3>Navegue pelo menu e você poderá:</h3>
+                    <li>- &nbsp; Acessar a lista de Funcionários cadastrados, Condutores cadastrados, Veículos cadastrados e histório de Viagens realizadas;</li>
                     <li>- &nbsp; Realizar novos cadastros (de Funcionários, Condutores, Veículos e Viagens);</li>
                     <li>- &nbsp; Atualizar dados já cadastrados em nosso banco.</li>
                 </ul>

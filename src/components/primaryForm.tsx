@@ -17,7 +17,8 @@ export const FormContainer = styled.form`
 
     & h2 {
         font-size: 1.8rem;
-        color: var(--medium-gray);
+        font-weight: 600;
+        color: var(--dark-gray);
         margin-bottom: 3rem;
-    }
+    
 `

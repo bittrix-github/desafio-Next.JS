@@ -21,7 +21,7 @@ const FieldContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 55rem;
+    width: 65rem;
 
     @media (max-width: 800px) {
         width: 100%;
@@ -233,7 +233,7 @@ export function FormList ( props: FormBuilderProps ) {
                     </FieldContainer>
                     <FieldContainer style={ { marginTop: 5 + 'rem' } } >
                         <PrimaryButton onClick={ event => { submitButtonHandler(event) } }>Cadastrar</PrimaryButton>
-                        <VariantButton onClick={ () => { cancelButtonHandler() } }>Cancelar</VariantButton>
+                        <VariantButton style={ { marginRight: 14 + 'rem' } } onClick={ () => { cancelButtonHandler() } }>Cancelar</VariantButton>
                     </FieldContainer>
                 </>
             )
@@ -283,7 +283,7 @@ export function FormList ( props: FormBuilderProps ) {
                     </FieldContainer>
                     <FieldContainer style={ { marginTop: 5 + 'rem' } } >
                         <PrimaryButton onClick={ event => { submitButtonHandler(event) } }>Cadastrar</PrimaryButton>
-                        <VariantButton onClick={ () => { cancelButtonHandler() } }>Cancelar</VariantButton>
+                        <VariantButton style={ { marginRight: 14 + 'rem' } } onClick={ () => { cancelButtonHandler() } }>Cancelar</VariantButton>
                     </FieldContainer>
                 </>
             )
@@ -333,7 +333,7 @@ export function FormList ( props: FormBuilderProps ) {
                     </FieldContainer>
                     <FieldContainer style={ { marginTop: 5 + 'rem' } } >
                         <PrimaryButton onClick={ event => { submitButtonHandler(event) } }>Cadastrar</PrimaryButton>
-                        <VariantButton onClick={ () => { cancelButtonHandler() } }>Cancelar</VariantButton>
+                        <VariantButton style={ { marginRight: 14 + 'rem' } } onClick={ () => { cancelButtonHandler() } }>Cancelar</VariantButton>
                     </FieldContainer>
                 </>            
             )
@@ -412,7 +412,7 @@ export function FormList ( props: FormBuilderProps ) {
                     </FieldContainer>
                     <FieldContainer style={ { marginTop: 5 + 'rem' } } >
                         <PrimaryButton onClick={ event => { submitButtonHandler(event) } }>Cadastrar</PrimaryButton>
-                        <VariantButton onClick={ () => { cancelButtonHandler() } }>Cancelar</VariantButton>
+                        <VariantButton style={ { marginRight: 14 + 'rem' } } onClick={ () => { cancelButtonHandler() } }>Cancelar</VariantButton>
                     </FieldContainer>
                 </>
             )
